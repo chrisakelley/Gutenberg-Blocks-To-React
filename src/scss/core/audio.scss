@@ -1,0 +1,12 @@
+.wp-block-audio {
+     padding: 0;
+     margin: 0;
+	// Show full-width when not aligned.
+	audio {
+		width: 100%;
+
+		// The browser natively applies a 300px width to the audio block.
+		// We restore this as a min-width instead, for alignments.
+		min-width: 300px;
+	}
+}
