@@ -10,11 +10,13 @@ import {
 } from '../components';
 const getSerializers = () => {
 	const serializers = {
+		'core/audio': DefaultBlock,
 		'core/button': DefaultBlock,
 		'core/code': DefaultBlock,
 		'core/column': Column,
 		'core/columns': Columns,
 		'core/cover': Cover,
+		'core/file': DefaultBlock,
 		'core/gallery': DefaultBlock,
 		'core/heading': Heading,
 		'core/html': DefaultBlock,
@@ -27,8 +29,6 @@ const getSerializers = () => {
 		'core/quote': DefaultBlock,
 		'core/separator': DefaultBlock,
 		'core/spacer': DefaultBlock,
-		'core/file': DefaultBlock,
-		'core/audio': DefaultBlock,
 		'core/video': DefaultBlock,
 	};
 

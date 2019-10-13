@@ -7,10 +7,10 @@
 	"author": "Chris Kelley (https://github.com/chrisakelley)",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/chrisakelley/gutenberg-blocks-to-react.git"
+		"url": "git+https://github.com/chrisakelley/Gutenberg-Blocks-To-React.git"
 	},
 	"bugs": {
-		"url": "https://github.com/chrisakelley/gutenberg-blocks-to-react/issues"
+		"url": "https://github.com/chrisakelley/Gutenberg-Blocks-To-React/issues"
 	},
 	"homepage": "https://wpblockserializer.com",
 	"main": "lib/index.js",
