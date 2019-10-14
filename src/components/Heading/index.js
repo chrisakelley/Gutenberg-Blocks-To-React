@@ -18,6 +18,7 @@ const Heading = (props) => {
 		style: styles,
 		className: classes,
 		dangerouslySetInnerHTML: { __html: props.content },
+		id: props.anchor,
 	};
 	return React.createElement(props.mark, headingProps, null);
 };
