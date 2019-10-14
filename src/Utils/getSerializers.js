@@ -1,13 +1,13 @@
-import React from 'react';
-
 import {
-	DefaultBlock,
-	Paragraph,
-	Heading,
-	Columns,
 	Column,
+	Columns,
 	Cover,
+	DefaultBlock,
+	Heading,
+	MediaText,
+	Paragraph
 } from '../components';
+
 const getSerializers = () => {
 	const serializers = {
 		'core/audio': DefaultBlock,
@@ -23,12 +23,15 @@ const getSerializers = () => {
 		'core/image': DefaultBlock,
 		'core/image': DefaultBlock,
 		'core/list': DefaultBlock,
+		'core/media-text': MediaText,
 		'core/paragraph': Paragraph,
 		'core/preformatted': DefaultBlock,
 		'core/pullquote': DefaultBlock,
 		'core/quote': DefaultBlock,
 		'core/separator': DefaultBlock,
 		'core/spacer': DefaultBlock,
+		'core/table': DefaultBlock,
+		'core/verse': DefaultBlock,
 		'core/video': DefaultBlock,
 	};
 
