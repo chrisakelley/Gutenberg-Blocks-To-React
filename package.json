@@ -1,8 +1,12 @@
 {
 	"name": "gutenberg-blocks-to-react",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Gutenberg to React Blocks",
-	"keywords": [],
+	"keywords": [
+		"WordPress",
+		"Gutenberg",
+		"Blocks"
+	],
 	"license": "GPL-3.0-or-later",
 	"author": "Chris Kelley (https://github.com/chrisakelley)",
 	"repository": {
@@ -30,8 +34,8 @@
 		"@babel/plugin-transform-modules-umd": "^7.2.0",
 		"@babel/plugin-transform-react-constant-elements": "^7.6.3",
 		"@babel/plugin-transform-react-inline-elements": "^7.2.0",
-		"@babel/preset-env": "^7.6.2",
-		"@babel/preset-react": "^7.0.0",
+		"@babel/preset-env": "^7.6.3",
+		"@babel/preset-react": "^7.6.3",
 		"babel-loader": "^8.0.6",
 		"cross-env": "^6.0.3",
 		"css-loader": "^3.2.0",
@@ -41,13 +45,13 @@
 		"mini-css-extract-plugin": "^0.8.0",
 		"node-sass": "^4.12.0",
 		"path": "^0.12.7",
-		"react-dom": "^16.10.1",
-		"react": "^16.10.1",
+		"react-dom": "^16.10.2",
+		"react": "^16.10.2",
 		"sass-loader": "^8.0.0",
 		"sass": "^1.23.0",
 		"style-loader": "^1.0.0",
 		"webpack-cli": "^3.3.9",
-		"webpack-dev-server": "^3.8.1",
-		"webpack": "^4.41.0"
+		"webpack-dev-server": "^3.8.2",
+		"webpack": "^4.41.1"
 	}
 }
